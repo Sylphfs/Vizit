@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Виктория Терикова — сайты и Telegram-боты</title>
+  <meta name="description" content="Разрабатываю сайты и Telegram-ботов: лендинги, визитки, веб-приложения, автоматизация и интеграции.">
+  <meta name="theme-color" content="#f6f1ea">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=STIX+Two+Text:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    ПЛЕЙСХОЛДЕРЫ ДЛЯ ЗАМЕНЫ:
+    — проекты 01–04 (названия, описания, стек, ссылки) → реальные работы.
+    Ниже каждая точка помечена комментарием TODO.
+  -->
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top">Виктория Терикова</a>
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="#work">Работы</a>
+        <a href="#about">О себе</a>
+        <a href="#contact">Контакт</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow" data-reveal>Веб-разработчик · сайты и Telegram-боты</p>
+
+      <h1 class="hero-title" data-reveal>
+        Делаю сайты и сервисы, к которым хочется возвращаться.
+      </h1>
+
+      <div class="hero-object" id="hero-object" aria-hidden="true">
+        <span class="blk blk-1"></span>
+        <span class="blk blk-2"></span>
+        <span class="blk blk-3"></span>
+        <span class="blk blk-4"></span>
+        <span class="blk blk-5"></span>
+      </div>
+
+      <div class="hero-foot" data-reveal>
+        <p class="hero-sub">
+          Лендинги, визитки, веб-приложения. Боты для автоматизации, сервисов и интеграций.
+          От первого разговора до запуска — один человек и понятный процесс.
+        </p>
+        <div class="hero-side">
+          <p class="hero-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Открыт к новым проектам
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#work">Смотреть работы</a>
+            <a class="link-arrow" href="#contact">Написать в Telegram <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- РАБОТЫ -->
+    <section class="section" id="work">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Избранные работы</h2>
+        <p class="section-note">Несколько проектов — каждый со своей задачей</p>
+      </div>
+
+      <div class="cases">
+
+        <svg class="cases-route" viewBox="0 0 2 100" preserveAspectRatio="none" aria-hidden="true">
+          <line x1="1" y1="0" x2="1" y2="100"></line>
+        </svg>
+
+        <article class="case case--featured" data-card>
+          <div class="case-meta">
+            <span class="case-index">01</span>
+            <span class="case-type">сайт</span>
+          </div>
+          <h3 class="case-title">«Экотехпром» — сайт компании</h3>
+          <div class="case-featured">
+            <p class="case-desc">
+              Корпоративный сайт лицензированного оператора по вывозу и переработке отходов
+              в Свердловской области: услуги, форма заявки, порядок работы и контакты.
+            </p>
+            <div class="case-featured-aside">
+              <span class="case-stack">HTML · CSS · JavaScript</span>
+              <a class="case-link" href="https://ecotp.ru/" target="_blank" rel="noopener">Живой проект <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" data-card>
+          <div class="case-meta">
+            <span class="case-index">02</span>
+            <span class="case-type">Telegram-бот</span>
+          </div>
+          <h3 class="case-title">EnglishFlow</h3>
+          <p class="case-desc">
+            Консультационный чат-бот школы английского языка с веб-интерфейсом:
+            детерминированный сценарий (bot-flow) и ИИ-консультант по базе знаний.
+          </p>
+          <div class="case-foot">
+            <span class="case-stack">Python · FastAPI · SQLite</span>
+            <a class="case-link" href="https://terikovav18.sourcecraft.site/englishflow/" target="_blank" rel="noopener">Открыть бота <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="case" data-card>
+          <div class="case-meta">
+            <span class="case-index">03</span>
+            <span class="case-type">веб-приложение</span>
+          </div>
+          <h3 class="case-title"><!-- TODO: название -->Внутренний инструмент команды</h3>
+          <p class="case-desc">
+            <!-- TODO: описание -->
+            Небольшое веб-приложение для учёта заявок и статусов.
+            Заменило таблицу и чат, в котором терялись задачи.
+          </p>
+          <div class="case-foot">
+            <span class="case-stack">React · Node.js · SQLite</span>
+            <a class="case-link" href="#"><!-- TODO: ссылка -->Исходный код <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="case" data-card>
+          <div class="case-meta">
+            <span class="case-index">04</span>
+            <span class="case-type">сайт</span>
+          </div>
+          <h3 class="case-title"><!-- TODO: название -->Визитка для специалиста</h3>
+          <p class="case-desc">
+            <!-- TODO: описание -->
+            Одностраничный сайт-портфолио: минимум страниц, максимум ясности.
+            Быстро грузится и удобно читается с телефона.
+          </p>
+          <div class="case-foot">
+            <span class="case-stack">HTML · CSS · JavaScript</span>
+            <a class="case-link" href="#"><!-- TODO: ссылка -->Живой проект <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- О СЕБЕ -->
+    <section class="section" id="about">
+      <div class="section-head" data-clip>
+        <span class="section-num">02</span>
+        <h2 class="section-title">О себе</h2>
+        <p class="section-note">Коротко, по делу</p>
+      </div>
+
+      <div class="about">
+        <p class="about-lead" data-lines>
+          Работаю на стыке дизайна и кода: сначала думаю о том, как страница читается,
+          и только потом, как она свёрстана.
+        </p>
+        <div class="about-body">
+          <p data-lines>
+            Мне интересно, когда проект живой: его можно открыть, нажать, отправить сообщение
+            и получить ответ. Поэтому сначала задаю много вопросов, потом рисую, потом пишу код
+            и довожу до состояния, когда всё работает без сюрпризов. Люблю ясные задачи
+            и понятную цель проекта. Если вам близок такой подход, давайте знакомиться.
+          </p>
+          <p class="about-tools-label" data-reveal>Инструменты</p>
+          <p class="about-tools" data-lines>
+            JavaScript · TypeScript · React · Node.js · PostgreSQL · Telegram Bot API · Figma
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- КОНТАКТ -->
+    <section class="section" id="contact">
+      <div class="section-head" data-reveal>
+        <span class="section-num">03</span>
+        <h2 class="section-title">Контакт</h2>
+        <p class="section-note">Отвечаю в течение дня</p>
+      </div>
+
+      <div class="contact" data-reveal>
+        <p class="contact-lead">Есть задача или вопрос — напишите напрямую.</p>
+        <div class="contact-rule" aria-hidden="true"></div>
+        <ul class="contact-list">
+          <li>
+            <a class="contact-link" href="https://t.me/sylphfs">
+              <span class="contact-key">Telegram</span>
+              <span class="contact-val">@sylphfs <span class="contact-arrow" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="mailto:TerikovaV18@yandex.ru">
+              <span class="contact-key">Email</span>
+              <span class="contact-val">TerikovaV18@yandex.ru <span class="contact-arrow" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://github.com/Sylphfs">
+              <span class="contact-key">GitHub</span>
+              <span class="contact-val">github.com/Sylphfs <span class="contact-arrow" aria-hidden="true">↗</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer-copy">© <span id="year">2025</span> Виктория Терикова</p>
+    <p class="footer-note">Сайты и Telegram-боты</p>
+  </footer>
+
+  <script src="scroll.js"></script>
+  <script>
+    // Страховка: если scroll.js по какой-то причине не отработал — показываем контент
+    window.setTimeout(function () {
+      if (!window.__motionReady) document.documentElement.classList.remove('js');
+    }, 3000);
+  </script>
+</body>
+</html>

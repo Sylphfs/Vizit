@@ -1,0 +1,4 @@
+# Dev-артефакты и временные файлы
+.design/
+.chrome-tmp*/
+vendor/
